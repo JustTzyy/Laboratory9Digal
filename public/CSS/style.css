@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(135deg, rgb(66, 72, 102), rgb(107, 154, 255));
+  color: #333;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.col-10 {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: rgb(95, 131, 169);
+  color: white;
+}
+
+.btn {
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
